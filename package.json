@@ -1,5 +1,5 @@
 {
-    "name": "pkg_name",
+    "name": "@uppercod/jsdoc",
     "type": "module",
     "version": "0.0.0",
     "description": "Capture text fragments based on regular expressions that are executed for each line of the text",
@@ -19,8 +19,7 @@
         "types": "tsc",
         "build": "rollup -c",
         "dev": "rollup -c -w",
-        "test": "ava",
-        "prepare": "npm run test && npm run build && npm run types"
+        "test": "ava"
     },
     "repository": {
         "type": "git",
@@ -45,5 +44,8 @@
     "prettier": {
         "tabWidth": 4,
         "singleQuote": false
+    },
+    "dependencies": {
+        "@uppercod/str-fragment": "latest"
     }
 }
