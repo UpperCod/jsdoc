@@ -19,7 +19,8 @@
         "types": "tsc",
         "build": "rollup -c",
         "dev": "rollup -c -w",
-        "test": "ava"
+        "test": "ava",
+        "prepublishOnly": "npm run test && npm run types"
     },
     "repository": {
         "type": "git",
