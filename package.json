@@ -1,7 +1,7 @@
 {
     "name": "@uppercod/jsdoc",
     "type": "module",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Capture text fragments based on regular expressions that are executed for each line of the text",
     "main": "./module.cjs",
     "module": "./src/module.js",
@@ -24,14 +24,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/UpperCod/pkg_name.git"
+        "url": "git+https://github.com/UpperCod/jsdoc.git"
     },
     "author": "UpperCod",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/UpperCod/pkg_name/issues"
+        "url": "https://github.com/UpperCod/jsdoc/issues"
     },
-    "homepage": "https://github.com/UpperCod/pkg_name#readme",
+    "homepage": "https://github.com/UpperCod/jsdoc#readme",
     "devDependencies": {
         "ava": "^3.10.1",
         "rollup": "^2.21.0",
